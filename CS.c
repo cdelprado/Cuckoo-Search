@@ -36,7 +36,7 @@ void print_results(int dim, Nests *Nest, Nests *new_Nest, Nests *best, double fx
 	for (i = 0; i < nnest; i++){
 		int j;
 		for (j = 0; j < dim; j++){
-		printf("%f\n", best->v[j]);
+		//printf("%f\n", best->v[j]);
 		}
 	}
 	printf("fx %6.3e\n", fxmin);
