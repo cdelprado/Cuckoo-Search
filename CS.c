@@ -39,7 +39,7 @@ void print_results(int dim, Nests *Nest, Nests *new_Nest, Nests *best, double fx
 		//printf("%f\n", best->v[j]);
 		}
 	}
-	printf("fx %6.3e\n", fxmin);
+	printf("%6.3e\n", fxmin);
 }
 
 void simplebounds(int dim, Nests *new_Nest, int lb, int ub){
